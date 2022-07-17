@@ -1,3 +1,5 @@
+import Acoes from "./Acoes"
+
 function ArrayPosts() {
     return ([
         {
@@ -40,23 +42,6 @@ function Conteudo(props){
     return (
         <div class="conteudo">
             <img src={props.img} />
-        </div>
-    )
-}
-
-
-
-function Acoes() {
-    return (
-        <div class="acoes">
-            <div>
-                <ion-icon name="heart-outline"></ion-icon>
-                <ion-icon name="chatbubble-outline"></ion-icon>
-                <ion-icon name="paper-plane-outline"></ion-icon>
-            </div>
-            <div>
-                <ion-icon name="bookmark-outline"></ion-icon>
-            </div>
         </div>
     )
 }
