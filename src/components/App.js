@@ -8,12 +8,9 @@ function App(){
         <div>
             <Navbar />
 
-            <div class ="corpo">
-                <Corpo />
-            </div>
+            <Corpo />
 
             <Fundo_Mobile />
-
         </div>
     )
 }
