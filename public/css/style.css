@@ -195,6 +195,14 @@ body {
   margin-right: 6px;
 }
 
+ion-icon[name="heart"] {
+  color: red;
+}
+
+.curtido {
+  background-color: red;
+}
+
 .post .fundo .curtidas {
   display: flex;
   align-items: center;
